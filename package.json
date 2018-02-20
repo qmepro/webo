@@ -1,0 +1,50 @@
+{
+  "name": "webo",
+  "description": "webo",
+  "version": "1.0.0",
+  "author": "Moiz Buli",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "color": "^2.0.0",
+    "gatsby": "^1.6.5",
+    "gatsby-link": "^1.6.5",
+    "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^1.0.19",
+    "gatsby-plugin-nprogress": "^1.0.7",
+    "gatsby-plugin-react-helmet": "^1.0.1",
+    "gsap": "^1.20.2",
+    "radium": "^0.19.4",
+    "react-reveal": "^0.1.1",
+    "scrollmagic": "^2.0.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.5.2"
+  },
+  "overrides": {
+    "gsap": {
+      "main": [
+        "./src/uncompressed/TweenMax.js"
+      ]
+    },
+    "scrollmagic": {
+      "main": [
+        "./scrollmagic/uncompressed/ScrollMagic.js",
+        "./scrollmagic/uncompressed/plugins/animation.gsap.js"
+      ]
+    }
+  }
+}

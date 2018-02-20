@@ -1,0 +1,114 @@
+{
+  "assetsByChunkName": {
+    "path---federal-menu": [
+      "path---federal-menu-a0e39f21c11f6a62c5ab.js",
+      "path---federal-menu-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-cbf61d03969af7e468ab.js",
+      "component---src-pages-index-js-cbf61d03969af7e468ab.js.map"
+    ],
+    "path---mercury": [
+      "path---mercury-a0e39f21c11f6a62c5ab.js",
+      "path---mercury-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---jamie-veg-patch": [
+      "path---jamie-veg-patch-a0e39f21c11f6a62c5ab.js",
+      "path---jamie-veg-patch-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-buffalo-7-infographic-js": [
+      "component---src-pages-buffalo-7-infographic-js-5aa3b50b072502adb0a0.js",
+      "component---src-pages-buffalo-7-infographic-js-5aa3b50b072502adb0a0.js.map"
+    ],
+    "component---src-pages-jamie-veg-patch-js": [
+      "component---src-pages-jamie-veg-patch-js-c22dd9bb315b2182b91a.js",
+      "component---src-pages-jamie-veg-patch-js-c22dd9bb315b2182b91a.js.map"
+    ],
+    "component---src-pages-festival-of-you-js": [
+      "component---src-pages-festival-of-you-js-9a33a5a2cf0f71a373fb.js",
+      "component---src-pages-festival-of-you-js-9a33a5a2cf0f71a373fb.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-0378d51d9a4ce09a56fe.js",
+      "component---src-layouts-index-js-0378d51d9a4ce09a56fe.js.map"
+    ],
+    "path---reebok-project": [
+      "path---reebok-project-a0e39f21c11f6a62c5ab.js",
+      "path---reebok-project-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-federal-menu-js": [
+      "component---src-pages-federal-menu-js-f68c10dd18f14102031b.js",
+      "component---src-pages-federal-menu-js-f68c10dd18f14102031b.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-open-market-presentation-js": [
+      "component---src-pages-open-market-presentation-js-a48e088dcdcbac944fdb.js",
+      "component---src-pages-open-market-presentation-js-a48e088dcdcbac944fdb.js.map"
+    ],
+    "path---open-market-presentation": [
+      "path---open-market-presentation-a0e39f21c11f6a62c5ab.js",
+      "path---open-market-presentation-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-e0510bcd0c7ac098c9e3.js",
+      "commons-e0510bcd0c7ac098c9e3.js.map"
+    ],
+    "path---form": [
+      "path---form-a0e39f21c11f6a62c5ab.js",
+      "path---form-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---buffalo-7-infographic": [
+      "path---buffalo-7-infographic-a0e39f21c11f6a62c5ab.js",
+      "path---buffalo-7-infographic-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-mercury-js": [
+      "component---src-pages-mercury-js-08e8215717fc4946d030.js",
+      "component---src-pages-mercury-js-08e8215717fc4946d030.js.map"
+    ],
+    "component---src-pages-reebok-project-js": [
+      "component---src-pages-reebok-project-js-d4cba617daf3851b8340.js",
+      "component---src-pages-reebok-project-js-d4cba617daf3851b8340.js.map"
+    ],
+    "path---thanks": [
+      "path---thanks-a0e39f21c11f6a62c5ab.js",
+      "path---thanks-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-4be8e98b0005c50b2587.js",
+      "build-js-styles.css",
+      "app-4be8e98b0005c50b2587.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---festival-of-you": [
+      "path---festival-of-you-a0e39f21c11f6a62c5ab.js",
+      "path---festival-of-you-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-thanks-js": [
+      "component---src-pages-thanks-js-822fe9255465cc7adff7.js",
+      "component---src-pages-thanks-js-822fe9255465cc7adff7.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-form-js": [
+      "component---src-pages-form-js-f783df14bb5151ff762b.js",
+      "component---src-pages-form-js-f783df14bb5151ff762b.js.map"
+    ]
+  }
+}
