@@ -16,7 +16,7 @@ import Circle from './decorations/circle';
 import Triangle from './decorations/triangle';
 
 const PlansShelf = () => 
-  <section className="diagonal clockwise" style={styles.section}>
+  <section className="diagonal anticlockwise" style={styles.section}>
     <SectionHeading style={{color: "white"}} title="Service Plans" smallText="" />
     <div className="container">
       <div className="row text-center">

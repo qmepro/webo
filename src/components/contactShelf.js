@@ -16,7 +16,7 @@ import Circle from './decorations/circle';
 import Triangle from './decorations/triangle';
 
 const ContactShelf = () => 
-  <section className="diagonal anticlockwise" style={styles.section}>
+  <section className="diagonal clockwise" style={styles.section}>
     <SectionHeading style={{color: "white"}} title="Contact Us" smallText="" />
     <div className="container">
       <div className="row text-center">

@@ -63,8 +63,8 @@ class IndexPage extends React.Component{
       <HeaderShelf />
       <WorkShelf />
       <ServicesShelf />
-      <ContactShelf />
       <PlansShelf />
+      <ContactShelf />
       <FooterShelf circle="true" />
     </div>)
   }

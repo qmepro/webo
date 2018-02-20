@@ -8,13 +8,7 @@ import ProjectScreenshot from './projectScreenshot';
 
 import SectionHeading from "./sectionHeading";
 
-import reebok1 from '../assets/work/reebok1.jpg';
-import buffalo1 from '../assets/work/buffalo7-1.png';
-import federal1 from '../assets/work/federal1.jpg';
-import openmarket1 from '../assets/work/openmarket1.jpg';
-import jamie1 from '../assets/work/jamie1.jpg';
-import festivalofyou1 from '../assets/work/festivalofyou1.jpg';
-import mercury1 from '../assets/work/mercury1.jpg';
+import reebok1 from '../assets/reebok-header-bg.jpg';
 
 import ecommerce from '../assets/ecommerce.png';
 import educational_institutions from '../assets/educational_institutions.png';

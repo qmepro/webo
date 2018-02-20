@@ -15,7 +15,7 @@ const TemplateWrapper = ({ children }) =>
   <StyleRoot>
     <div>
       <Helmet
-        title="MyFulk - Drive Business towards success"
+        title="Fulk Tech Developers - Drive Business towards success"
         meta={[
           { name: 'description', content: 'Fulk Tech Developers - Drive Business towards success' },
           { name: 'keywords', content: 'freelance, design, web development, seo, education, marketig, web, portfolio, logo, app development, markting,business development, organizations' },

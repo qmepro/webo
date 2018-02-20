@@ -10,12 +10,6 @@ import PageHeader from '../components/page/pageHeader'
 import ProjectDescription from '../components/projects/projectDescription'
 import ThemesShelf from '../components/themesShelf'
 
-import bg from '../assets/projects/mercury/bg.jpg';
-
-import mercury1 from '../assets/projects/mercury/personal_web.png';
-import mercury2 from '../assets/projects/mercury/Value_pack.png';
-import mercury3 from '../assets/projects/mercury/custom_pack.png';
-
 import DottedCircle from '../components/decorations/dottedCircle';
 import Circle from '../components/decorations/circle';
 import Triangle from '../components/decorations/triangle';
