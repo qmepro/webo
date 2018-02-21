@@ -14,6 +14,7 @@ import Custom from '../assets/contact-icons/custom.png';
 import DottedCircle from './decorations/dottedCircle';
 import Circle from './decorations/circle';
 import Triangle from './decorations/triangle';
+import ContactUs from '../assets/contact_us.gif'
 
 const PlansShelf = () => 
   <section className="diagonal anticlockwise" style={styles.section}>
@@ -25,8 +26,9 @@ const PlansShelf = () =>
                 <li>Single Page</li>
                 <li>1 Year Validity</li>
                 <li>Multiple Themes</li>
+                <li>Single Revisions</li>
                 <li><h3>At Rs. 500 Only</h3></li>
-                <li><a href="/form" class="btn btn-info" role="button">Select Your Theme</a></li>
+                <li><a href="/form"><img src={ContactUs} /></a></li>
             </ul>
         </div>
         <div style={styles.col} className="col-xs-6 col-sm-4"><MyIcon style={styles.ico} iconURL={Business} circleColour="#7FB9FF" textColor="white" description="Business Website" />
@@ -38,7 +40,7 @@ const PlansShelf = () =>
                 <li>Web Forms</li>
                 <li>Multiple Revisions</li>
                 <li><h3>At Rs. 2000 Only</h3></li>
-                <li><a href="/form" class="btn btn-info" role="button">Select Your Theme</a></li>
+                <li><a href="/form"><img src={ContactUs} /></a></li>
             </ul>
         </div>
         <div className="clearfix visible-xs-block"></div>
@@ -51,7 +53,7 @@ const PlansShelf = () =>
                 <li>Marketing Web Tools</li>
                 <li>Business Class Support</li>
                 <li><h3>Custom Price</h3></li>
-                <li><a href="/form" class="btn btn-info" role="button">Contact Us</a></li>
+                <li><a href="/form"><img src={ContactUs} /></a></li>
             </ul>
         </div>
         <div className="clearfix visible-sm-block visible-md-block"></div>

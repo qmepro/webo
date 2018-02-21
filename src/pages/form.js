@@ -9,6 +9,7 @@ import FooterShelf from '../components/footerShelf';
 import PageHeader from '../components/page/pageHeader'
 import ProjectDescription from '../components/projects/projectDescription'
 import ThemesShelf from '../components/themesShelf'
+import ContactShelf from '../components/contactShelf'
 
 import DottedCircle from '../components/decorations/dottedCircle';
 import Circle from '../components/decorations/circle';
@@ -99,6 +100,7 @@ function encode(data) {
         <Triangle style={{position: "absolute", top: "20vh", left: "0vh", zIndex: -1}} width="15" height="18" colour="#3a86ff" rotate="45" />
         <Circle style={{position: "absolute", top: "45vh", left: "-4vh"}} diameter="9" colour="#fdc523" />
         
+        <ContactShelf />
         <FooterShelf />
         
     </div>)
