@@ -14,7 +14,7 @@ import Custom from '../assets/contact-icons/custom.png';
 import DottedCircle from './decorations/dottedCircle';
 import Circle from './decorations/circle';
 import Triangle from './decorations/triangle';
-import ContactUs from '../assets/contact_us.gif'
+import ContactUs from '../assets/contactus.png'
 
 const PlansShelf = () => 
   <section className="diagonal anticlockwise" style={styles.section}>
