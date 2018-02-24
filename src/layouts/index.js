@@ -17,7 +17,7 @@ const TemplateWrapper = ({ children }) =>
       <Helmet
         title="Fulk Tech Developers - Drive Business towards success"
         meta={[
-          { name: 'description', content: 'Fulk Tech Developers - Drive Business towards success' },
+          { name: 'description', content: 'We develop user interactive website for local or international businesses and personal portfolio.' },
           { name: 'keywords', content: 'freelance, design, web development, seo, education, marketig, web, portfolio, logo, app development, markting,business development, organizations' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' },
           { name: 'google-site-verification', content: '' },

@@ -27,7 +27,7 @@ const ThemesShelf = () =>
     <div className="container">
       <div className="row">
         <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={web} description="Blog" />
-        <table><tr><td>
+        <table><tbody><tr><td>
             <ul>
                 <li><a href="http://jamiehenson.com/">Jamie Blog</a></li>
                 <li><a href="https://hunterchang.com/">HUNTER</a></li>
@@ -41,10 +41,10 @@ const ThemesShelf = () =>
                 <li><a href="https://songwang.io/">Song Blog</a></li>
                 <li><a href="https://blog.georgi-yanev.com/">Georgi Blog</a></li>
             </ul>
-            </td></tr></table>
+            </td></tr></tbody></table>
         </div>
         <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={print} description="Online Book" />
-        <table><tr><td>
+        <table><tbody><tr><td>
           <ul>
             <li><a href="https://guide.freecodecamp.org/">freeCodeCamp</a></li>
             <li><a href="https://www.bricolage.io/">Bricolage</a></li>
@@ -52,12 +52,12 @@ const ThemesShelf = () =>
             <li><a href="http://digitalpsychology.io/">Digital Psychology</a></li>
             <li><a href="https://www.howtographql.com/">GraphQL</a></li>
           </ul>
-          </td></tr></table>
+          </td></tr></tbody></table>
         </div>
         <div style={styles.col} className="clearfix visible-xs-block"></div>
         <div style={styles.col} className="col-xs-6 col-sm-4"><CircleIcon iconURL={logo} description="Personal and Business" />
-          <table><tr><td>
-          <ul class="list-group row">
+          <table><tbody><tr><td>
+          <ul className="list-group row">
           <li><a href="https://open.fda.gov/">Open FDA</a></li>
           <li><a href="https://reasonml.github.io/">Reason</a></li>
           <li><a href="https://hackclub.com/">Hack Club</a></li>
@@ -72,8 +72,8 @@ const ThemesShelf = () =>
           <li><a href="https://www.swyx.io/">swyx</a></li>
           <li><a href="https://mannequin.io/">MANNEQUIN</a></li>
           </ul>
-          </td>
-          <td>
+          </td></tr>
+          <tr><td>
           <ul>
           <li><a href="https://api-platform.com/">API</a></li>
           <li><a href="https://bottender.js.org/">BOTTENDER</a></li>
@@ -89,8 +89,8 @@ const ThemesShelf = () =>
           <li><a href="https://www.verious.io/">Verious</a></li>
           <li><a href="https://severallevels.io/">several levels</a></li>
           </ul>
-          </td>
-          </tr>
+          </td></tr>
+          </tbody>
           </table>
         </div>
       </div>

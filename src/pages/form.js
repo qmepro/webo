@@ -10,6 +10,7 @@ import PageHeader from '../components/page/pageHeader'
 import ProjectDescription from '../components/projects/projectDescription'
 import ThemesShelf from '../components/themesShelf'
 import ContactShelf from '../components/contactShelf'
+import ThemeShelf from '../components/themeShelf'
 
 import DottedCircle from '../components/decorations/dottedCircle';
 import Circle from '../components/decorations/circle';
@@ -51,6 +52,7 @@ function encode(data) {
         <ProjectDescription heading="<< Back to Home" description="" />
       </a>
         <ThemesShelf />
+        <ThemeShelf />
 
         <form
           style={styles.section}

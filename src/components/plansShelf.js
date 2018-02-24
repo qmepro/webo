@@ -27,7 +27,6 @@ const PlansShelf = () =>
                 <li>1 Year Validity</li>
                 <li>Multiple Themes</li>
                 <li>Single Revisions</li>
-                <li><h3>At Rs. 500 Only</h3></li>
                 <li><a href="/form"><img src={ContactUs} /></a></li>
             </ul>
         </div>
@@ -39,7 +38,6 @@ const PlansShelf = () =>
                 <li>SSL Certificate</li>
                 <li>Web Forms</li>
                 <li>Multiple Revisions</li>
-                <li><h3>At Rs. 2000 Only</h3></li>
                 <li><a href="/form"><img src={ContactUs} /></a></li>
             </ul>
         </div>
@@ -52,7 +50,6 @@ const PlansShelf = () =>
                 <li>Linux Web Hosting</li>
                 <li>Marketing Web Tools</li>
                 <li>Business Class Support</li>
-                <li><h3>Custom Price</h3></li>
                 <li><a href="/form"><img src={ContactUs} /></a></li>
             </ul>
         </div>
