@@ -72,8 +72,8 @@ const ThemesShelf = () =>
           <li><a href="https://www.swyx.io/">swyx</a></li>
           <li><a href="https://mannequin.io/">MANNEQUIN</a></li>
           </ul>
-          </td></tr>
-          <tr><td>
+          </td></tr></tbody>
+          <tbody><tr><td>
           <ul>
           <li><a href="https://api-platform.com/">API</a></li>
           <li><a href="https://bottender.js.org/">BOTTENDER</a></li>

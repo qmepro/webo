@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Radium from 'radium';
 
+import ExtUrl from './extUrl'
+
 import sharedStyles from '../shared/sharedStyles';
 
 import ProjectScreenshot from './projectScreenshot';
@@ -99,7 +101,8 @@ class ThemeShelf extends React.Component {
       <SectionHeading title="Work Areas" smallText="Our" />
       <div className="container-fluid" style={styles.projectsContainer}>
         <div className="row">
-          <div id="project1" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><iframe to="https://reactjs.org/" width="600" height="400"></iframe></em></div>
+          <div id="project1" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={ecommerce} description="E-Commerce" /></Link></em></div>
+          <div id="project1" className="col-xs-12 col-sm-4"><ExtUrl /></div>
           <div id="project2" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={portfolio} description="Portfolio" /></Link></em></div>
           <div className="clearfix visible-xs-block"></div>
           <div id="project3" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={educational_institutions} description="Educational Institutions" /></Link></em></div>

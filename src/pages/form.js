@@ -51,8 +51,6 @@ function encode(data) {
       <a href="/">
         <ProjectDescription heading="<< Back to Home" description="" />
       </a>
-        <ThemesShelf />
-        <ThemeShelf />
 
         <form
           style={styles.section}
