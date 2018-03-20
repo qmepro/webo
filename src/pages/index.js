@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Radium from 'radium';
 import Color from 'color';
+//import { Grid, Segment, Sticky, Rail } from 'semantic-ui-react';
 
 import Reveal from 'react-reveal';
 
@@ -15,7 +16,9 @@ import ServicesShelf from '../components/servicesShelf';
 import WorkShelf from '../components/workShelf';
 import ContactShelf from '../components/contactShelf';
 import FooterShelf from '../components/footerShelf';
-import PlansShelf from '../components/plansShelf'
+import PlansShelf from '../components/plansShelf';
+import AppsBar from '../components/page/pageHeadM'
+import { Z_FIXED } from 'zlib';
 
 function createScene1(){
 
@@ -58,20 +61,21 @@ class IndexPage extends React.Component{
     createScene1();
   }
 
-  render(){
+  render() {
+    
+
     return (<div id="pin-container">
-      <HeaderShelf />
-      <WorkShelf />
-      <ServicesShelf />
-      <PlansShelf />
-      <ContactShelf />
-      <FooterShelf circle="true" />
+                  <AppsBar />   
+                  <HeaderShelf value="a" />
+                  <WorkShelf id="workArea" />
+                  <ServicesShelf id="services" />
+                  <PlansShelf />
+                  <ContactShelf id="contactUs" />
+                  <FooterShelf circle="true" />             
     </div>)
   }
-
 }
 
-var styles = {
-}
+var styles = {};
 
 export default IndexPage

@@ -5,10 +5,12 @@ import Radium from 'radium';
 import bg from '../assets/bg1.jpg';
 import logo from '../assets/logo.png';
 import scroll from '../assets/scroll1.gif'
+import PageHeader from '../components/page/pageHeader'
 
 const HeaderShelf = () =>
   <section id="header-section" style={styles.sectionLong}>
     <section id="header-pin" className="cover" style={styles.section}>
+    
       <div style={{ display: "table", width: "100%", height: "100%" }}>
         <div style={{ display: "table-cell", verticalAlign: "middle" }}>
           <div id="logo-strapline">
@@ -56,12 +58,12 @@ styles.logo = {
   display: 'block',
   width: '24vh',
   height: 'auto',
-  margin: '0 auto'
+  margin: 'auto'
 }
 
 styles.hr = {
   width: styles.logo.width,
-  margin: '0 auto',
+  margin: 'auto',
   color: 'white',
   backgroundColor: 'white',
   marginTop: '4vh',
@@ -72,6 +74,6 @@ styles.scroll = {
   display: 'block',
   width: '10vh',
   height: 'auto',
-  margin: '0 auto'
+  margin: 'auto'
 }
 export default Radium(HeaderShelf);

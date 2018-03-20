@@ -87,11 +87,10 @@ class WorkShelf extends React.Component {
           <div className="col-sm-6">
             <div id="featured-image" style={styles.shadowImage}>
               <span style={styles.imageBefore}></span>
-              <Link to="#"><img src={reebok1} style={styles.featuredImage} /></Link>
+              <img src={reebok1} style={styles.featuredImage} />
             </div>
           </div>
           <div id="featured-info" className="col-sm-6" style={styles.rightHalf}>
-            <Link to="#" className="specialHeading" style={{fontSize: "18px"}}></Link>
             <p style={styles.p}>Our expertise is to provide <strong>Web Services</strong> for <strong>Business Development</strong> right from <strong>Web Designing</strong> to <strong>Web Marketing</strong>. Located in <strong>Pune</strong>, Our <strong>Web Tools</strong> help you to develop your business in various areas.</p>
           </div>
         </div>
@@ -99,15 +98,15 @@ class WorkShelf extends React.Component {
       <SectionHeading title="Work Areas" smallText="Our" />
       <div className="container-fluid" style={styles.projectsContainer}>
         <div className="row">
-          <div id="project1" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={ecommerce} description="E-Commerce" /></Link></em></div>
-          <div id="project2" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={portfolio} description="Portfolio" /></Link></em></div>
+          <div id="project1" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><ProjectScreenshot screenshotURL={ecommerce} description="E-Commerce" /></em></div>
+          <div id="project2" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><ProjectScreenshot screenshotURL={portfolio} description="Portfolio" /></em></div>
           <div className="clearfix visible-xs-block"></div>
-          <div id="project3" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={educational_institutions} description="Educational Institutions" /></Link></em></div>
+          <div id="project3" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><ProjectScreenshot screenshotURL={educational_institutions} description="Educational Institutions" /></em></div>
           <div className="clearfix visible-sm-block visible-md-block"></div>
-          <div id="project4" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={local_business} description="Local Business" /></Link></em></div>
+          <div id="project4" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><ProjectScreenshot screenshotURL={local_business} description="Local Business" /></em></div>
           <div className="clearfix visible-xs-block"></div>
-          <div id="project5" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={marketing} description="Marketing" /></Link></em></div>
-          <div id="project6" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><Link to="#"><ProjectScreenshot screenshotURL={organization} description="Organization" /></Link></em></div>
+          <div id="project5" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><ProjectScreenshot screenshotURL={marketing} description="Marketing" /></em></div>
+          <div id="project6" style={styles.screenshot} className="col-xs-12 col-sm-4"><em><ProjectScreenshot screenshotURL={organization} description="Organization" /></em></div>
         </div>
         <Circle style={{position: "absolute", top: "-35vh", right: "-5vh"}} diameter="20" colour="#3a86ff" />
         <Triangle style={{position: "absolute", top: "20vh", left: "-4vh", zIndex: -1}} width="12" height="15" colour="#fdc523" rotate="45" />

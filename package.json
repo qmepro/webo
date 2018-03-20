@@ -7,6 +7,8 @@
     "animate.css": "^3.6.1",
     "bootstrap": "^3.3.7",
     "color": "^2.0.0",
+    "element-react": "^1.4.8",
+    "element-theme-default": "^1.4.13",
     "gatsby": "^1.9.203",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-favicon": "^2.1.1",
@@ -16,9 +18,12 @@
     "gatsby-remark-responsive-iframe": "^1.4.17",
     "gatsby-transformer-remark": "^1.7.33",
     "gsap": "^1.20.4",
+    "material-ui": "^0.20.0",
+    "npm": "^5.7.1",
     "radium": "^0.19.4",
     "react-reveal": "^0.1.1",
-    "scrollmagic": "^2.0.5"
+    "scrollmagic": "^2.0.5",
+    "semantic-ui-react": "^0.78.3"
   },
   "keywords": [
     "gatsby"
